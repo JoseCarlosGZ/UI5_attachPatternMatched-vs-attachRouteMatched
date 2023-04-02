@@ -1,0 +1,16 @@
+<mvc:View controllerName="josecarlosgz.navigation.controller.Tertiary"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+	<MessagePage
+		title="{i18n>titleTertiaryView}"
+		showHeader="true"
+		showNavButton="true"
+        navButtonPress="onNavBack"
+		text="Tertiary.view.xml"
+		enableFormattedText="true"
+		description=""
+		icon="sap-icon://heading3"
+	>
+
+	</MessagePage>
+</mvc:View>

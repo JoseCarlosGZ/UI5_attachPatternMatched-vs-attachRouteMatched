@@ -1,0 +1,18 @@
+<mvc:View controllerName="josecarlosgz.navigation.controller.Primary"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+	<MessagePage
+		title="{i18n>titlePrimaryView}"
+		showHeader="true"
+		showNavButton="true"
+        navButtonPress="onNavBack"
+		text="Primary.view.xml"
+		enableFormattedText="true"
+		description=""
+		icon="sap-icon://heading1"
+	>
+		<buttons>
+			<Button text="navigate to Secondary View" press="navToSecondaryView" />
+		</buttons>
+	</MessagePage>
+</mvc:View>
